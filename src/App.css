@@ -1,8 +1,37 @@
-.App {
-  text-align: center;
+/********** HEADER **********/
+
+.App-header {
+  background-color: #5E75FB;
   color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  font-family: 'Poppins', sans-serif;
 }
 
-body {
-  background-color: #1F2456;
+.main-info {
+  margin-left: 15px;
+}
+
+nav {
+  margin-right: 15px;
+  font-size: 22px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+li:nth-child(1n) {
+  padding-left: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
