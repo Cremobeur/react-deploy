@@ -5,12 +5,7 @@ const Footer = () => {
 
         <footer className="App-footer">
 
-            <div className="main-social">
-                <ul>
-                    <li><a href="./Footer.js">Github</a></li>
-                    <li><a href="./Footer.js">Linkedin</a></li>
-                </ul>
-            </div>
+            <span>© 2021 Christophe Rémy. Tous droits réservés.</span>
 
         </footer>
 
