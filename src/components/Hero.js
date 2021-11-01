@@ -14,7 +14,7 @@ const Hero = () => {
 
                 <div className="main-spitch">
                     <h2>Christophe Rémy</h2>
-                    <p>Développeur Front-web</p>
+                    <p>Développeur Front-end</p>
                 </div>
 
             </div>
@@ -25,8 +25,6 @@ const Hero = () => {
 
                 <p>
                     Bonjour, je m'appelle Christophe et j'ai 31 ans. Je suis passionné par le développement web depuis longtemps, j'ai donc décidé d'entreprendre une reconversion professionelle.
-
-                    J'ai pu mener mon projet avec succès et je suis maintenant déterminé à trouver ma première expérience profesionnelle.
 
                     Rigoureux et curieux, je continue à m'autoformer seul sur différents languages.
                 </p>
@@ -43,7 +41,7 @@ const Hero = () => {
 
                         <span>2021</span>
 
-                        <h4>Formation développeur web / web mobile</h4>
+                        <h4><i class="fas fa-code"></i>Formation développeur web / web mobile</h4>
 
                     </div>
 
@@ -61,14 +59,14 @@ const Hero = () => {
 
                         <span>2008</span>
 
-                        <h4>Bac pro communication graphique</h4>
+                        <h4><i class="fas fa-crop"></i>Bac pro communication graphique</h4>
 
                     </div>
 
                     <p>
                         J'ai pu apprendre à proposer des solutions conceptuelles et stratégiques pour
                         répondre aux problématiques des clients. Savoir et créer une identité visuelle,
-                        un logotype, une chartegraphique, un design graphique, des packagings de produits et
+                        un logotype, une charte graphique, un design graphique, des packagings de produits et
                         des supports publicitaires.
                     </p>
 
@@ -80,14 +78,14 @@ const Hero = () => {
 
                         <span>2006</span>
 
-                        <h4>Cap photographie</h4>
+                        <h4><i class="fas fa-camera-retro"></i>Cap photographie</h4>
 
                     </div>
 
                     <p>
                         Développer ma créativité et affiner mon oeil afin de réaliser les meilleurs clichés
                         possibles tels étaient les objectifs principaux. Couvrir une actualité, un mariage
-                        ou même des modèlesd’illustration, pour avoir comme objectif de saisir au mieux le
+                        ou même des modèles d’illustration, pour avoir comme objectif de saisir au mieux le
                         sujet de mes photographies.
                     </p>
 
@@ -108,8 +106,13 @@ const Hero = () => {
                 <h3>Retrouvez-moi sur..</h3>
 
                 <ul>
-                    <li><a href="./Header.js">Github</a></li>
-                    <li><a href="./Header.js">Linkedin</a></li>
+                    <li>
+                        <i class="fab fa-github-alt"></i><a target="blank" href="https://github.com/Cremobeur">Github</a>
+                    </li>
+
+                    <li>
+                        <i class="fab fa-linkedin"></i><a target="blank" href="https://www.linkedin.com/in/cremobeur/">Linkedin</a>
+                    </li>
                 </ul>
 
             </div>
