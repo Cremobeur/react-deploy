@@ -6,18 +6,18 @@ const Hero = () => {
 
         <section className="App-hero">
 
-            <div className="main-profil">
+        <div className="main-profil">
 
-                <picture>
-                    <img src={profil} alt="" />
-                </picture>
+            <picture>
+                <img src={profil} alt="" />
+            </picture>
 
-                <div className="main-spitch">
-                    <h2>Christophe Rémy</h2>
-                    <p>Développeur Front-end</p>
-                </div>
-
+            <div className="main-spitch">
+                <h2>Christophe Rémy</h2>
+                <p>Développeur Front-end</p>
             </div>
+
+        </div>
 
             <div className="main-about">
 

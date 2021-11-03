@@ -78,32 +78,6 @@ a {
   margin: 100px auto 30px auto;
 }
 
-.main-profil {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.main-profil h2 {
-  font-size: 2.25rem;
-}
-
-.App-hero picture img {
-  height: auto;
-  max-width: 125px;
-  object-fit: cover;
-  border-radius: 54% 46% 41% 59% / 63% 61% 39% 37%;
-}
-
-.main-spitch {
-  margin-left: 30px;
-  border-radius: 0.5rem;
-  background: rgba(255, 255, 255, 0.08);
-  text-align: center;
-  padding: 0.75rem;
-}
-
 .main-about p {
   text-align: justify;
   text-indent: 1em;
@@ -156,6 +130,32 @@ a {
   font-size: 1.5em;
 }
 
+.main-profil {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-profil h2 {
+  font-size: 2.25rem;
+}
+
+.App-hero picture img {
+  height: auto;
+  max-width: 125px;
+  object-fit: cover;
+  border-radius: 54% 46% 41% 59% / 63% 61% 39% 37%;
+}
+
+.main-spitch {
+  margin-left: 30px;
+  border-radius: 0.5rem;
+  background: rgba(255, 255, 255, 0.08);
+  text-align: center;
+  padding: 0.75rem;
+}
+
 /********** SKILLS **********/
 
 .App-skill {
@@ -169,7 +169,19 @@ a {
   border-radius: 0.5rem;
   background: rgba(255, 255, 255, 0.08);
   text-decoration: none;
-  padding: 0.75rem;
+  padding: .75rem;
+}
+
+.App-skill .full-skill div {
+  margin-bottom: 30px;
+}
+
+.App-skill h4 {
+  text-align: left;
+  text-decoration: none;
+  border-radius: .5rem;
+  background: rgba(255, 255, 255, 0.08);
+  padding: .75rem;
 }
 
 /********** WORKS **********/
